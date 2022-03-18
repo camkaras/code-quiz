@@ -1,26 +1,52 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+body {
+    background-color: white;
 
 }
-body {
-    
-    padding: 0;
-    margin: 0;
-    display:flex;
-    width: 100vw;
-    height: 100vh;
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+P{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    color: black;
+    width: 450px;
+    height: 400px;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    margin: auto;
+    padding: 20px;
 }
 
-p {
-    background-color: blueviolet;
-    display: inline-flex;
-    font-size: 20px;
-    width: 200px;
-    height: 50px;
-    justify-content: center;
-    margin: 0px;
+.score{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+}
+
+#scorebtn{
+    color: blueviolet;
+    
+
+}
+
+#startbtn{
+    color: white;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 5px;
 }

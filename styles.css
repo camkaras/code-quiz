@@ -1,1 +1,26 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 
+}
+body {
+    
+    padding: 0;
+    margin: 0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+p {
+    background-color: blueviolet;
+    display: inline-flex;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    margin: 0px;
+}

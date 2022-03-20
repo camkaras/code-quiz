@@ -1,0 +1,27 @@
+#endsc{
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+
+#initials{
+    position: absolute;
+    top: 175px;
+    left: 310px;
+}
+
+#end-txt{
+    font-size: medium;
+    position: absolute;
+    top: 165px;
+    left: 200px;
+}
+
+#savescore{
+    position: absolute;
+    margin-top: 167px;
+    left: 500px;
+    background-color: purple;
+    
+}

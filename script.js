@@ -12,7 +12,7 @@ let questions = [
     choice1: 'strings',
     choice2: 'booleans',
     choice3: 'alerts',
-    choices4: 'numbers',
+    choice4: 'numbers',
     answer: 3,
     },
 
@@ -21,7 +21,7 @@ let questions = [
     choice1: 'quotes',
     choice2: 'curly brackets',
     choice3: 'parenthesis',
-    choices4: 'square brackets',
+    choice4: 'square brackets',
     answer: 4,
     },
 
@@ -30,7 +30,7 @@ let questions = [
     choice1: 'numbers and strings',
     choice2: 'other arrays',
     choice3: 'booleans',
-    choices4: 'all of the above',
+    choice4: 'all of the above',
     answer: 4,
     },
 
@@ -39,7 +39,7 @@ let questions = [
     choice1: 'commas',
     choice2: 'curly brackets',
     choice3: 'quotes',
-    choices4: 'parenthesis',
+    choice4: 'parenthesis',
     answer: 2,
     },
     
@@ -48,7 +48,7 @@ let questions = [
     choice1: 'Javascript',
     choice2: 'terminal/bash',
     choice3: 'for loops',
-    choices4: 'console log',
+    choice4: 'console log',
     answer: 4,
     },
 ]

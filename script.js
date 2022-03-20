@@ -5,6 +5,7 @@ let currentQ = {}
 let acceptinA = true
 let questionCount = 0
 let avquest = []
+let score = 0
 
 let questions = [
     {
@@ -53,6 +54,9 @@ let questions = [
     },
 ]
 
+var seconds = 1000 * 60
+var min = seconds * 60
+
 const MAX_Q = 5 
 
 startgame = () => {
@@ -61,8 +65,24 @@ startgame = () => {
     getnewq()
 }
 
+//timer
+const startmin = 1;
+let time = startmin * 60;
+const countdEl = document.getElementById('countdown');
+setInterval(updateCD, 1000);
+
+function updateCD(){
+    const min = Math.floor(time / 60);
+    let seconds = time % 60;
+
+    seconds = seconds < 1 ? '0' + seconds : seconds;
+    countdEl.innerHTML = `${min}: ${seconds}`;
+    time--;
+}
+
 getnewq = () => {
     if(avquest.length === 0 || questionCount > MAX_Q){
+        return window.location.assign('/scores.html')
 
     }
     questionCount++
@@ -91,7 +111,8 @@ choices.forEach(choice => {
 
         let classToApply = selAn == currentQ.answer ? 'correct' : "incorrect"
         if(classToApply === 'correct') {
-
+            score === score + 1
+            console.log(score)
         }
 
         selCho.parentElement.classList.add(classToApply)

@@ -50,3 +50,11 @@ P{
     padding: 5px;
     border-radius: 5px;
 }
+
+#countdown{
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
